@@ -1,0 +1,114 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/***** GRID *****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  clear: both;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 350px;
+  float: left;
+  padding: 0px 20px 0px 20px;
+}
+
+/***** HEADER *****/
+h1 {
+  font-size: 30px;
+  line-height: 23px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+header h1 span {
+  color: #77a466;
+}
+
+nav {
+  padding-top: 5px;
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #77a466;
+}
+
+/***** MAIN *****/
+h2 {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #77a466;
+}
+
+h3 {
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.specials {
+  line-height: 30px;
+  color: #77a466;
+  padding-bottom: 36px;
+}
+
+#info p {
+  padding: 0 50px;
+}
+
+#image-border {
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+}
+
+#side-border {
+  border-right: 1px solid #dedbdc;
+}
+
+#top-border {
+  border-top: 1px solid #dedbdc;
+}
+
+/***** FOOTER *****/
+footer h3 {
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 1px solid #dedbdc;
+  padding-top: 25px;
+  padding-right: 29px;
+}
+
+#footer-accent {
+  font-family: 'Dancing Script', cursive;
+  font-size: 24px;
+  color: #77a466;
+  text-transform: lowercase;
+}
